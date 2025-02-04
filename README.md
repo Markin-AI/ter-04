@@ -9,15 +9,15 @@
 
 ## Решение 1
 
-![Вопрос1](https://github.com/Markin-AI/ter-03/blob/main/img/1-1.png)
+![Вопрос1](https://github.com/Markin-AI/ter-04/blob/main/img/1-1.png)
 
-![Вопрос1](https://github.com/Markin-AI/ter-03/blob/main/img/1-2.png)
+![Вопрос1](https://github.com/Markin-AI/ter-04/blob/main/img/1-2.png)
 
-![Вопрос1](https://github.com/Markin-AI/ter-03/blob/main/img/1-3.png)
+![Вопрос1](https://github.com/Markin-AI/ter-04/blob/main/img/1-3.png)
 
-![Вопрос1](https://github.com/Markin-AI/ter-03/blob/main/img/1-4.png)
+![Вопрос1](https://github.com/Markin-AI/ter-04/blob/main/img/1-4.png)
 
-![Вопрос1](https://github.com/Markin-AI/ter-03/blob/main/img/1-5.png)
+![Вопрос1](https://github.com/Markin-AI/ter-04/blob/main/img/1-5.png)
 
 [ссылка на коммит](https://github.com/Markin-AI/ter-04/commit/e53e45c68cced104af92c570a45571f339a72ef9)
 
@@ -44,7 +44,7 @@ module "vpc_dev" {
 
 ## Решение 2
 
-![Вопрос2](https://github.com/Markin-AI/ter-03/blob/main/img/1-2.png)
+![Вопрос2](https://github.com/Markin-AI/ter-04/blob/main/img/1-2.png)
 
 [terraform-docs](https://github.com/Markin-AI/ter-04/blob/terraform-04/doc.md)
 
@@ -73,7 +73,7 @@ terraform state rm module.vpc
 terraform state list
 ```
 
-![Вопрос3](https://github.com/Markin-AI/ter-03/blob/main/img/3-1.png)
+![Вопрос3](https://github.com/Markin-AI/ter-04/blob/main/img/3-1.png)
 
 ```
 terraform import module.analytics-vm.yandexcomputeinstance.vm[0] fhmtra7gc8mf4j0sh8bo
@@ -81,7 +81,7 @@ terraform import module.analytics-vm.yandexcomputeinstance.vm[0] fhmtra7gc8mf4j0
 terraform import module.marketing-vm.yandexcomputeinstance.vm[0] fhmqajold7qvlvchtl7e
 ```
 
-![Вопрос3](https://github.com/Markin-AI/ter-03/blob/main/img/3-2.png)
+![Вопрос3](https://github.com/Markin-AI/ter-04/blob/main/img/3-2.png)
 
 ```
 terraform import module.vpc.yandex vpc network.net enpktiOvpjpsgaqt59u0
@@ -91,15 +91,13 @@ terraform import module.vpc.yandex vpc subnet.subnet e9bpJgolfoor9alrgq69
 terraform state list
 ```
 
-![Вопрос3](https://github.com/Markin-AI/ter-03/blob/main/img/3-3.png)
+![Вопрос3](https://github.com/Markin-AI/ter-04/blob/main/img/3-3.png)
 
 ```
 terraform plan
 ```
 
-![Вопрос3](https://github.com/Markin-AI/ter-03/blob/main/img/3-4.png)
-
-[ссылка на коммит](https://github.com/Markin-AI/ter-04/commit/48f662df952294febb680fd16906b102fbdcbea7)
+![Вопрос3](https://github.com/Markin-AI/ter-04/blob/main/img/3-4.png)
 
 ---
 
